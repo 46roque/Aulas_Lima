@@ -15,4 +15,39 @@
             height: 100px;
 
          }        
+
+.linha-br2{
+   background-color: cyan;
+}
+
+.formulário{
+   background-color: rgb(255, 0, 208);
+}
+.input-nome{
+   /*remove a borda do elemento*/
+   border:none;
+   border-radius: 5px;
+   margin-left: 50px;
+   /*Define opacidade do elemento*/
+   opacity: 70%;
+}
+.botao{
+   background-color: darkmagenta;
+   border: none;
+   border-radius: 5px;
+   padding: 6px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: medium;
+   text-shadow: 5px 2px 5px rgba(212, 14, 57, 0.9);
+   width: 20px;
+   height: 20px;
+   margin-left: 5px;
+   /*modifica o tipo de cursor*/
+   cursor: pointer;
+   /*zerar as configs da aparencia*/
+   appearance: none;
+   background-color: aliceblue;
+   border: 2px gray;
+   border-radius: 5px;
    
+}
