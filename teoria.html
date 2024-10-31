@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset= "UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="widt=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
 <body style="background-color: rgb(125, 23, 221);">
-    
+
     Olá Mundo!
     <!--  Titulos de nivel 1 ao 6  -->
     <h1>Roquezada</h1>
@@ -21,7 +23,7 @@
     <hr>
     <!-- A tag 'p'insere um novo parágrafo -->
     <p>Este é um parágrafo</p>
-    
+
 
     <p>Este é um txt mt grande, que eu desejo <br> quebrar a linha</p>
 
@@ -33,7 +35,8 @@
 
 
     <!-- tam img para add uma imagem, o atributo src é preenchido com o caminho da imagem -->
-    <img src="https://www.papeldeparede.etc.br/fotos/wp-content/uploads/bob-esponja-e-patrick--3d_5922_1024x768-370x297.jpg">
+    <img
+        src="https://www.papeldeparede.etc.br/fotos/wp-content/uploads/bob-esponja-e-patrick--3d_5922_1024x768-370x297.jpg">
 
 
     <img src="./img/CES.gif">
@@ -41,7 +44,9 @@
     <p> Paragrafo com caracter &lt;br&gt;</p>
     <b>Texto em negrito</b><br>
     <strong>Texto importante</strong><br>
-    <h1><1> Italico</1></h1>
+    <h1>
+        <1> Italico</1>
+    </h1>
     <em>Texto enfatizado</em><br>
     <mark>Txt marcado</mark><br>
     <h3>Texto <small>Menor</small></h3>
@@ -53,98 +58,97 @@
     <a href="https://www.sesisp.org.br" target="_blank"><img src="./img/sesi-logo-2.png"></a><br>
 
     <h3>Vídeos do YT</h3>
-    <iframe width="789" height="444" src="https://www.youtube.com/embed/kGhVpV7NjeM?list=RDMMkGhVpV7NjeM" title="Kayblack - Mistérios (Video Clipe Oficial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <br>
-        <hr>
-            <table border="1">
+    <iframe width="789" height="444" src="https://www.youtube.com/embed/kGhVpV7NjeM?list=RDMMkGhVpV7NjeM"
+        title="Kayblack - Mistérios (Video Clipe Oficial)" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <hr>
+    <table border="1">
+        <tr>
+            <th>nome</th>
+            <th>idade</th>
+            <th>profissao</th>
+        </tr>
+        <tr>
+            <td>Marcola</td>
+            <td>69</td>
+            <td>militar</td>
+        </tr>
+    </table>
+
+    <table>
+        <!--Tag semantica de cabeçalho-->
+        <thead>
             <tr>
                 <th>nome</th>
-                <th>idade</th>
-                <th>profissao</th>
+                <th>telefone</th>
+                <th>cidade</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
-                <td>Marcola</td>
-                <td>69</td>
-                <td>militar</td>
+                <td>Roquezinn </td>
+                <td>9987611</td>
+                <td>Andradina</td>
             </tr>
-        </table>
+        </tbody>
+    </table>
 
-        <table>
-                <!--Tag semantica de cabeçalho-->
-                <thead>
-                    <tr>
-                        <th>nome</th>
-                        <th>telefone</th>
-                        <th>cidade</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Roquezinn </td>
-                        <td>9987611</td>
-                        <td>Andradina</td>
-                    </tr>
-                </tbody>
-            </table>
+    <p>Trabalhando com formulários</p>
+    <form class="'formulário">
+        <label>Nome</label>
+        <!--Insere um campo digitavel do tipo txt-->
+        <input type="text">
+        <label>Sobrenome</label>
+        <input type="text" class="input-nome">
+        <!--Tipo senha-->
+        <label>Senha</label>
+        <input type="password" placeholder="Digite sua senha">
+        <input type="#" value="Clique aqui" class="botao">
+        <br>
+        <!--Incluindo checkbox(Opções)-->
+        <input type="checkbox" class="checar"> eu to de 160
+        <input type="checkbox" class="checar"> eu de civicão
+        <input type="checkbox" class="checar"> eu to com um canela seca
+        <br><label>data de nascimento</label>
+        <input type="date" name="id=">
+        <input type="datetime-local" name="id=">
+        <input type="email" placeholder="digite seu email" class="email">
+        <input type="file">
+        <br>
+        <!--input de seleção-->
+        <select>
+            <option value="" selected> Selecione a escolaridade</option>
+            <option value="primeiro colegial"> 1° medio</option>
+            <option value="segundo colegial"> 2° medio</option>
+            <option value="terceiro colegial"> 3° medio</option>
 
-            <p>Trabalhando com formulários</p>
-            <form class="'formulário">
-                <label>Nome</label>
-                <!--Insere um campo digitavel do tipo txt-->
-                <input type="text">
-                <label>Sobrenome</label>
-                <input type="text" class="input-nome">
-                <!--Tipo senha-->
-                <label>Senha</label>
-                <input type="password" placeholder="Digite sua senha"> 
-                <input type="#" value="Clique aqui" class="botao">
-                <br>
-                <!--Incluindo checkbox(Opções)-->
-                <input type="checkbox" class="checar"> eu to de 160
-                <input type="checkbox" class="checar"> eu de civicão
-                <input type="checkbox" class="checar"> eu to com um canela seca
-                <br><label>data de nascimento</label>
-                <input type="date" name="id=">
-                <input type="datetime-local" name="id=">
-                <input type="email" placeholder="digite seu email" class="email">
-                <input type="file">
-                <br>
-                <!--input de seleção-->
-                <select>
-                    <option value=""selected> Selecione a escolaridade</option>
-                    <option value="primeiro colegial"> 1° medio</option>
-                    <option value="segundo colegial"> 2° medio</option>
-                    <option value="terceiro colegial"> 3° medio</option>
-            
-                </select>
-                <p> radio button</p>
-                <input type="radio" name="tamanho">Pequeno
-                <input type="radio" name="tamanho" checked>Medio
-                <input type="radio" name="tamanho">Grande
-                <input type="radio" name="tamanho">Outros
-                <br>
-            
-                <p> radio button</p>
-                <input type="radio" name="tamanho">Pequeno
-                <input type="radio" name="tamanho" checked>Medio
-                <input type="radio" name="tamanho">Grande
-                <input type="radio" name="tamanho">Outros
-            
-                <fieldset>
-                <legend>Descrição</legend>
-                <textarea name="id=">
-            
+        </select>
+        <p> radio button</p>
+        <input type="radio" name="tamanho">Pequeno
+        <input type="radio" name="tamanho" checked>Medio
+        <input type="radio" name="tamanho">Grande
+        <input type="radio" name="tamanho">Outros
+        <br>
+
+        <p> radio button</p>
+        <input type="radio" name="tamanho">Pequeno
+        <input type="radio" name="tamanho" checked>Medio
+        <input type="radio" name="tamanho">Grande
+        <input type="radio" name="tamanho">Outros
+
+        <fieldset>
+            <legend>Descrição</legend>
+            <textarea name="id=">
+
                 </textarea>
-            
-                <input type="submit" value="Enviar">
-                <input type="reset" value="limpar">
-                    
-                </fieldset>
-            </form>
-        </body>
-     </html>
 
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
 
+        </fieldset>
+    </form>
+</body>
 
-
-
+</html>
